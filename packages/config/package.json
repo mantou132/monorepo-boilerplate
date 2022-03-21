@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "name": "@org/config",
+  "version": "0.0.1",
+  "description": "common config"
+}

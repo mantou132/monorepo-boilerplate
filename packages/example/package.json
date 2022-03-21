@@ -1,0 +1,28 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "description": "monorepo example package",
+  "main": "index.js",
+  "files": [
+    "/index.*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build --watch",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "@org/config": "^0.0.1"
+  },
+  "author": "mantou132",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mantou132/monorepo-boilerplate.git",
+    "directory": "packages/example"
+  },
+  "bugs": {
+    "url": "https://github.com/mantou132/monorepo-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mantou132/monorepo-boilerplate#readme"
+}
